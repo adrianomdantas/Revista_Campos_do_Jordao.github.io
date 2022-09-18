@@ -1,0 +1,8 @@
+.header {
+    height: 40px;
+    width: 100%;
+    background-image: url("header.png");
+    background-repeat: no-repeat;
+    color: #FFF;
+    padding-top: 5px;
+    }

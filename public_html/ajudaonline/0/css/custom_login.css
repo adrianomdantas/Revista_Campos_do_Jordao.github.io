@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu", "sans-serif";
+}
+
+:root{
+    --main-color: #ebeef6;
+    --site-color: #3a7afe;
+    --active-color: #d4def7;
+    --bg-color: #ecedf0;
+    --second-color: #f1f1f1;
+    --third-color: #9fa7bd;
+    --main-bg-color: #192039;
+    --second-br-color: #1e2746;
+    --third-br-color: #3a7afe;
+    --fourth-br-color: #131b138;
+    --primary-color: #0088cc;
+    --success-color: #47a447;
+    --info-color: #5bc0de;
+    --warning-color: #ed9c28;
+    --danger-color: #d2322d;
+}
+    
+body {
+    background-color: var(--main-color);
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-login{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 5px;
+}
+
+.wrapper-login{
+    width: 90%;
+    margin: auto;
+    background-color: var(--second-color);
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,1);
+}
+
+.wrapper-login .title{
+    height: 90px;
+    background-color: var(--main-bg-color);
+    border-radius: 5px 5px 0px 0px;
+    color: var(--main-color);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-login .form-login{
+    padding: 25px;
+}
+
+.wrapper-login .form-login .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper-login .form-login .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid var(--active-color);
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+/* personalizar o placeholder */
+
+.form-login .row input::placeholder{
+    color: var(--third-color);
+}
+
+/* Personalizando os icones */
+.wrapper-login .form-login .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: var(--main-color);
+    font-size: 18px;
+    background-color: var(--second-bgcolor);
+    border: 1px solid var(--active-color);
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* personalizando o botao */
+.wrapper-login .form-login .button input {
+ color: var(--main-color);
+ font-size: 20px;
+ background-color: var(--main-bg-color);
+ font-weight: 300;
+ padding-left: 0;
+ border: 1px solid var(--active-color);
+ cursor: pointer;
+}
+
+.form-login .button input::hover {
+    background: var(--second-br-color);
+}
+
+.wrapper-login .form-login .signup-link a {
+    color: var(--main-bg-color);
+    text-decoration: none;
+}
+
+.form-login .signup-link a::hover {
+    color: var(--site-bg-color);
+    text-decoration: none;
+}

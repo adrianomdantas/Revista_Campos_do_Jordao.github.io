@@ -1,0 +1,4 @@
+[01-Aug-2022 23:33:16 America/Fortaleza] PHP Warning:  include(0/fn/magpattern.php): failed to open stream: No such file or directory in /home1/alsoac40/revistacamposdojordao.com.br/public_html/index.php on line 7
+[01-Aug-2022 23:33:16 America/Fortaleza] PHP Warning:  include(0/fn/magpattern.php): failed to open stream: No such file or directory in /home1/alsoac40/revistacamposdojordao.com.br/public_html/index.php on line 7
+[01-Aug-2022 23:33:16 America/Fortaleza] PHP Warning:  include(): Failed opening '0/fn/magpattern.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/alsoac40/revistacamposdojordao.com.br/public_html/index.php on line 7
+[01-Aug-2022 23:33:16 America/Fortaleza] PHP Notice:  Undefined variable: googleAnalytics in /home1/alsoac40/revistacamposdojordao.com.br/public_html/index.php on line 26
